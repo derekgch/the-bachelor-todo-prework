@@ -6,7 +6,7 @@ def get_first_name_of_season_winner(data, season)
       win = result["name"]
     end
   end
-  win.split(" ").shift  
+  win.split(" ").shift
 end
 
 def get_contestant_name(data, occupation)
@@ -19,9 +19,8 @@ def get_contestant_name(data, occupation)
       end
     end
   end
-    
 
-  
+  name_of_interest
 end
 
 def count_contestants_by_hometown(data, hometown)
