@@ -61,5 +61,5 @@ def get_average_age_for_season(data, season)
     avg_age += Integer(v)
   end
 
-  (avg_age/age.size)
+  (avg_age/age.size).round
 end
