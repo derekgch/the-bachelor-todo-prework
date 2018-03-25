@@ -1,8 +1,13 @@
 def get_first_name_of_season_winner(data, season)
   # code here
   win=""
-
-  season
+  data[season].each do |attribute, result|
+    if data[season]["status"] == "Winner"
+      win = data[season]["name"]
+    end
+  end
+  win
+      
 
 
 end
