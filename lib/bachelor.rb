@@ -52,4 +52,9 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
+  age=""
+  data[season].each do |result|
+      age << result["age"]
+  end
+  win.split(" ").shift
 end
